@@ -18,6 +18,20 @@
  */
 
 function removeKFromList(/* l, k */) {
+  /* let pointer = l;
+  let resalt = null;
+  while (pointer.value === k) {
+    pointer = pointer.next;
+    resalt = pointer;
+  }
+  while (pointer.next) {
+    if (pointer.next !== null && pointer.next.value === k) {
+      pointer.next = pointer.next.next;
+    } else {
+      pointer = pointer.next;
+    }
+  }
+  return pointer; */
   throw new Error('Not implemented');
 }
 
