@@ -1,4 +1,4 @@
-// const ListNode = require('../extensions/list-node');
+const ListNode = require('../extensions/list-node');
 /**
  * Implement the Queue with a given interface via linked list (use ListNode extension above).
  *
@@ -12,9 +12,9 @@
  */
 
 class Queue {
-  /* constructor() {
+  constructor() {
     this.first = null;
-    this.size = 0;
+    // this.size = 0;
   }
 
   get size() {
@@ -37,7 +37,7 @@ class Queue {
 
   dequeue() {
     return this.queue.shift();
-  } */
+  }
 }
 
 module.exports = Queue;

@@ -17,8 +17,8 @@
  * }
  */
 
-function removeKFromList(/* l, k */) {
-  /* let pointer = l;
+function removeKFromList(l, k) {
+  let pointer = l;
   let resalt = null;
   while (pointer.value === k) {
     pointer = pointer.next;
@@ -31,8 +31,7 @@ function removeKFromList(/* l, k */) {
       pointer = pointer.next;
     }
   }
-  return pointer; */
-  throw new Error('Not implemented');
+  return resalt;
 }
 
 module.exports = removeKFromList;
